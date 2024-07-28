@@ -2,7 +2,7 @@
 the simplest graphical game menu for DOS
 
 # Usage
-the files BACK2.BMP, GAMES.EXE and the MENU.BAT should go in the folder that is the base for all games like for example C:\GAMES the program will enumerate all folders and add them as games
+the files BACK2.BMP, GAMES.EXE and the MENU.BAT should go in the folder that is the base for all games like for example C:\GAMES the program will enumerate all subfolders and add them as games
 
 each game folder must contain a SSTHUMB.BMP file that must be a top down (or flipped) 160x120 256 color bitmap, where only the first 240 colors can be used for the thumbnail... the remaining 16 colors are reserved for the back2.bmp
 inside each game folder you must have a PLAY.BAT that contains the command line to start to the game.
