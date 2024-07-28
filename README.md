@@ -14,17 +14,27 @@ the SSTHUMB.BMP can be modified to contain a "full game name" (instead of regula
 # Seting Names
 to modify the visible name in the menu SSTHUMB.BMP is modified the 16 palette entry colors in the .bmp are used to store the name which have space for 47 characters (plus \0 terminator), however the program will only fit 32 characters.
 
-syntax:
-SHOWNAME <folder>
-will show the name of the SSTHUMB.BMP stored at <folder> (don't include the final slash)
-ex: SHOWNAME . 
-display the name of the game stored in SSTHUMB.BMP at current folder
 
 syntax:
+
+SHOWNAME <folder>
+
+will show the name of the SSTHUMB.BMP stored at <folder> (don't include the final slash)
+
+ex: SHOWNAME . 
+
+display the name of the game stored in SSTHUMB.BMP at current folder
+
+
+syntax:
+
 SETNAME <folder> <name pattern>
+
 is used to set the game title to be stored in the SSTHUMB.BMP stored at <folder> (don't include the final slash)
 Due to limitations of qbasic COMMAND$() the whole name will would be UPPERCASE however the program will change the first character of each word to uppercase automatically, you can use _ instead of space to prevent the the character from being changed and you can prefix a char with ^ to force it to be uppercase
+
 ex: SETNAME MDK M.^D.^K - THE_FINAL_EPISODE
+
 will set the name of the SSTHUMB.BMP inside of the MDK folder to "M.D.K - The final episode"
 
 # Compiling
