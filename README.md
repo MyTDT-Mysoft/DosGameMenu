@@ -1,7 +1,7 @@
 # DosGameMenu
 the simplest graphical game menu for DOS
-![How it looks](screenshot/menu1.png)
-![How it looks](screenshot/menu2.png)
+![How it looks](screenshot/Menu1.png)
+![How it looks](screenshot/Menu2.png)
 
 # Usage
 the files BACK2.BMP, GAMES.EXE and the MENU.BAT should go in the folder that is the base for all games like for example C:\GAMES the program will enumerate all subfolders and add them as games
